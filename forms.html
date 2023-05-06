@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walkman Labs, LLC</title>
+    <script src="https://kit.fontawesome.com/912e452282.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> <h3><i class="fa fa-prescription-bottle"></i> Fill in Request Form</h3> </header>
+    <section>
+       
+
+        <article>
+            <h2>Request Lab Test</h2>
+            <form>
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <label for="fname">First Name</label>
+                            <br>
+                            <input type="text" name="fname" id="fname">
+                        </td>
+                        <td>
+                            <label for="lname">Last Name</label>
+                            <br>
+                            <input type="text" name="lname" id="lname">
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="city">City</label>
+                            <select name="city" id="city">
+                                <option value="None">No city Selected</option>
+                                <option value="Nairobi">Nairobi</option>
+                                <option value="Kisumu">Kisumu</option>
+                                <option value="Nakuru">Nakuru</option>
+                                <option value="Eldoret">Eldoret</option>
+                                <option value="Mombasa">Mombasa</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="test">Test</label>
+                            <select name="test" id="test">
+                                <option value="None">No test selected</option>
+                                <option value="SARS-Cov-2">SARS</option>
+                                <option value="COVID-19">COVID</option>
+                                <option value="HIV">HIV/AIDS</option>
+                                <option value="Bacterial">Bacterial</option>
+                                <option value="Microbe">Mircobe</option>
+                                <option value="Chemical">Chemical</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="dtest">Double Test</label>
+                            <input type="checkbox" name="dtest" id="dtest">
+                            <br>
+                            <label for="vtest">Verify Test</label>
+                            <input type="checkbox" name="vtest" id="vtest">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Choose Time</td>
+                        <td colspan="2">
+                            <label for="radiochoice">Morning</label>
+                            <input type="radio" name="choice" id="radiochoice">
+                            <label for="radiochoice">Afternoon</label>
+                            <input type="radio" name="choice" id="radiochoice">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><button type="submit" id="btnSubmit">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
+            
+        </article>
+    </section>
+   
+</body>
+</html>
